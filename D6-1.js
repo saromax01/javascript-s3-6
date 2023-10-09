@@ -270,7 +270,7 @@ const trovaIndicePrimoFilmPerAnno = (arrayDiFilm, annoDaCercare) => {
 };
 
 // Esempio di utilizzo della funzione
-const annoDaCercare = 2002; // Sostituisci con l'anno che desideri cercare
+const annoDaCercare = 2002;
 const indiceDelPrimoFilm = trovaIndicePrimoFilmPerAnno(movies, annoDaCercare);
 
 if (indiceDelPrimoFilm) {
