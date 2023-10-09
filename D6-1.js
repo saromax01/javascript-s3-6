@@ -269,7 +269,6 @@ const trovaIndicePrimoFilmPerAnno = (arrayDiFilm, annoDaCercare) => {
   return arrayDiFilm.findIndex((film) => parseInt(film.Year) === annoDaCercare);
 };
 
-// Esempio di utilizzo della funzione
 const annoDaCercare = 2002;
 const indiceDelPrimoFilm = trovaIndicePrimoFilmPerAnno(movies, annoDaCercare);
 
