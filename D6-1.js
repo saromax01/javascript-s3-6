@@ -14,12 +14,13 @@ concatString(strings1, strings2);
 const arrayGenerator = () => {
   const arrayRandom1 = [];
   for (let i = 0; i < 10; i++) {
-const valueCasual = Math.floor(Math.random() * 101));
-arrayRandom1.push(valueCasual) }
-return arrayRandom1 
-}
-const arrayRandom = arrayGenerator ()
-console.log (arrayRandom)
+    const valueCasual = Math.floor(Math.random() * 101);
+    arrayRandom1.push(valueCasual);
+  }
+  return arrayRandom1;
+};
+const arrayRandom = arrayGenerator();
+console.log(arrayRandom);
 
 /* ESERCIZIO 3 (filter)
   Scrivi una funzione per ricavare solamente i valori PARI da un array composto da soli valori numerici
